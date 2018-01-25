@@ -1,0 +1,70 @@
+body{
+   background:url(../img/woo_1.jpg); 
+    /* Set a specific height */
+    min-height: 500px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/*Amazing Deliceas Section css */
+.ourPakeg .main_pakeg_content .head_title h1{
+	color:white;
+	
+}
+.ourPakeg .main_pakeg_content .head_title h2{
+	color:white;
+	font-size:1.875rem;
+}
+
+.ourPakeg{
+	
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  width: 100%;
+  overflow: hidden;	
+  padding-bottom:120px;
+  
+    font-family: 'Pacifico', cursive;
+}
+
+.single_pakeg_one{
+	background:url(../img/newsone.jpg) left center no-repeat;
+	padding:30px;
+	overflow:hidden;
+	margin-top:60px;
+}
+.single_pakeg_two{
+	background:url(../img/newstwo.jpg) right center no-repeat;
+	padding:30px;	
+	overflow:hidden;
+	margin-top:60px;	
+	
+}
+.single_pakeg_three{
+	background:url(../img/newsthree.jpg) left center no-repeat;
+	padding:30px;	
+	overflow:hidden;
+	margin-top:60px;	
+	
+}
+
+.single_pakeg_text{
+	background:#fff;
+	padding:30px;
+	text-align:left;
+}
+
+.single_pakeg_text ul li{
+    background: url(../img/pkli.png) no-repeat left center;
+    padding: 15px 0px 15px 60px;
+    margin-top: 20px;
+	
+}
+.single_pakeg_text ul li span{
+    float: right;
+}
